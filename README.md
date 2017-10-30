@@ -1,5 +1,7 @@
 # personalized-pagerank-js
 A Javascript package for computing personalized pagerank.
+[![Build Status](https://travis-ci.org/jaejaejae/personalized-pagerank-js.svg?branch=master)](https://travis-ci.org/jaejaejae/personalized-pagerank-js)
+[![Coverage Status](https://coveralls.io/repos/github/jaejaejae/personalized-pagerank-js/badge.svg?branch=master)](https://coveralls.io/github/jaejaejae/personalized-pagerank-js?branch=master)
 =========
 
 A small library that adds commas to numbers
