@@ -1,0 +1,30 @@
+{
+  "name": "personalized-pagerank-js",
+  "version": "0.1.0",
+  "description": "First commit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaejaejae/personalized-pagerank-js.git"
+  },
+  "keywords": [
+    "pagerank",
+    "javascript"
+  ],
+  "author": "Ramon Bespinyowong <r.bespinyowong@gmail.com> (github.com/jae_bes)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaejaejae/personalized-pagerank-js/issues"
+  },
+  "homepage": "https://github.com/jaejaejae/personalized-pagerank-js#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
