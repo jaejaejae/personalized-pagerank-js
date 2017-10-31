@@ -1,6 +1,6 @@
 {
   "name": "personalized-pagerank-js",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "First commit.",
   "main": "index.js",
   "scripts": {
