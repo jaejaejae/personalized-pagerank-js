@@ -4,7 +4,7 @@ A Javascript package for computing personalized pagerank.
 [![Coverage Status](https://coveralls.io/repos/github/jaejaejae/personalized-pagerank-js/badge.svg?branch=master)](https://coveralls.io/github/jaejaejae/personalized-pagerank-js?branch=master)
 =========
 
-A small library that adds commas to numbers
+A library that computes personalised pagerank vector via power iteration.
 
 ## Installation
 
@@ -12,15 +12,21 @@ A small library that adds commas to numbers
 
 ## Usage
 
-    var pagerank = require('personalized-pagerank-js');
+    var ppr = require('personalized-pagerank-js');
 
-    var scores = pagerank(adjacencyMatrix, dampingFactor, personalizedScore, error, maxIterations);
+    var scores = ppr(adjacencyList, personalised, damping, maxIteration, threshold);
   
-  Output should be pagerank score of all the adjacency matrix.
+  Output should be pagerank score of all nodes.
 
 ## Tests
 
   `npm test`
+
+## TO-do
+
+* Support edge list input.
+
+* Support more pagerank algorithms.
 
 ## Contributing
 
